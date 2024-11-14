@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[BMW Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Defender Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Volvo Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Jaguar Launched Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-04T16:29:10 IST" name="Suite" finished-at="2024-11-04T16:29:21 IST" duration-ms="10976">
+    <groups>
+      <group name="system">
+        <method signature="Defender.launch()[pri:0, instance:Cars.Defender@156b88f5]" name="launch" class="Cars.Defender"/>
+        <method signature="Volvo.launch()[pri:0, instance:Cars.Volvo@3bf9ce3e]" name="launch" class="Cars.Volvo"/>
+      </group> <!-- system -->
+      <group name="regression">
+        <method signature="Jaguar.launch()[pri:0, instance:Cars.Jaguar@16610890]" name="launch" class="Cars.Jaguar"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="BMW.launch()[pri:0, instance:Cars.BMW@10d307f1]" name="launch" class="Cars.BMW"/>
+      </group> <!-- smoke -->
+      <group name="adhoc">
+        <method signature="Defender.launch()[pri:0, instance:Cars.Defender@156b88f5]" name="launch" class="Cars.Defender"/>
+      </group> <!-- adhoc -->
+    </groups>
+    <test started-at="2024-11-04T16:29:10 IST" name="Test" finished-at="2024-11-04T16:29:21 IST" duration-ms="10976">
+      <class name="Cars.Defender">
+        <test-method signature="launch()[pri:0, instance:Cars.Defender@156b88f5]" started-at="2024-11-04T16:29:10 IST" name="launch" finished-at="2024-11-04T16:29:19 IST" duration-ms="8886" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Defender Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- Cars.Defender -->
+      <class name="Cars.BMW">
+        <test-method signature="launch()[pri:0, instance:Cars.BMW@10d307f1]" started-at="2024-11-04T16:29:10 IST" name="launch" finished-at="2024-11-04T16:29:18 IST" duration-ms="7693" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BMW Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- Cars.BMW -->
+      <class name="Cars.Volvo">
+        <test-method signature="launch()[pri:0, instance:Cars.Volvo@3bf9ce3e]" started-at="2024-11-04T16:29:10 IST" name="launch" finished-at="2024-11-04T16:29:19 IST" duration-ms="9134" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Volvo Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- Cars.Volvo -->
+      <class name="Cars.Jaguar">
+        <test-method signature="launch()[pri:0, instance:Cars.Jaguar@16610890]" started-at="2024-11-04T16:29:10 IST" name="launch" finished-at="2024-11-04T16:29:21 IST" duration-ms="10913" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Jaguar Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- Cars.Jaguar -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
