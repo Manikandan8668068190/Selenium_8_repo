@@ -12,6 +12,7 @@ public class Assignment1
 {
 	public static void main(String[] args)
 	{
+		//modified GitHub
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.instagram.com/");
 		String title = driver.getTitle();
